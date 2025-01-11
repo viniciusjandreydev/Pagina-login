@@ -12,19 +12,21 @@
             <h1>Faça login para <br> acessar nosso site</h1>
             <img src="telecommuting-animate.svg"  class="left-login-image"  alt="Celular">
         </div>
+        <form action="login.php" method="post" autocomplete="on">
         <div class="right-login">
             <div class="card-login">
                 <h1>LOGIN</h1>
                 <div class="text-field">
                     <label for="usuario">Usuário</label>
-                    <input type="text" name="usuario" placeholder="Usuário">
+                    <input type="text" name="usuario" placeholder="Usuário" id="login">
                 </div>
                 <div class="text-field">
                     <label for="senha">Senha</label>
-                    <input type="password" name="senha" placeholder="Senha">
+                    <input type="password" name="senha" placeholder="Senha" id="senha">
                 </div>
-                <button class="btn-login">Login</button>
+                <button class="btn-login" type="submit" value="Entrar">Login</button>
                 <a href="esqueci.html">Esqueci a Senha</a>
+                </form>
         </div></div>
     </div>
 </body>
