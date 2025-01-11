@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,24 +10,28 @@
     <div class="main-login">
         <div class="left-login">
             <h1>Faça login para <br> acessar nosso site</h1>
-            <img src="telecommuting-animate.svg"  class="left-login-image"  alt="Celular">
+            <img src="telecommuting-animate.svg" class="left-login-image" alt="Celular">
         </div>
         <form action="login.php" method="post" autocomplete="on">
-        <div class="right-login">
-            <div class="card-login">
-                <h1>LOGIN</h1>
-                <div class="text-field">
-                    <label for="usuario">Usuário</label>
-                    <input type="text" name="usuario" placeholder="Usuário" id="login" autocomplete="username" required minlength="5" maxlength="15">
+            <div class="right-login">
+                <div class="card-login">
+                    <h1>LOGIN</h1>
+                    <div class="text-field">
+                        <label for="usuario">Usuário</label>
+                        <input type="text" name="usuario" placeholder="Usuário" id="login" autocomplete="username" required minlength="5" maxlength="15">
+                    </div>
+                    <div class="text-field">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" placeholder="Senha" id="senha" autocomplete="current-password" required minlength="8" maxlength="20">
+                    </div>
+                    <button class="btn-login" type="submit" value="Entrar">Login</button>
+                    <div class="links-ajuda">
+                        <a href="solicitar_redefinicao.html" class="Link">Esqueci a Senha</a>
+                        <a href="registro.html" class="Link">Faça seu registro</a>
+                    </div>
                 </div>
-                <div class="text-field">
-                    <label for="senha">Senha</label>
-                    <input type="password" name="senha" placeholder="Senha" id="senha" autocomplete="current-password" required minlength="8" maxlength="20">
-                </div>
-                <button class="btn-login" type="submit" value="Entrar">Login</button>
-                <a href="esqueci.html">Esqueci a Senha</a>
-                </form>
-        </div></div>
+            </div>
+        </form>
     </div>
 </body>
 </html>

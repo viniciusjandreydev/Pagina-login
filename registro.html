@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Registro</title>
+</head>
+<body>
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Crie sua conta para <br> acessar nosso site</h1>
+            <img src="telecommuting-animate.svg" class="left-login-image" alt="Registro">
+        </div>
+        <form action="registro.php" method="post" autocomplete="on">
+            <div class="right-login">
+                <div class="card-login">
+                    <h1>REGISTRO</h1>
+                    <div class="text-field">
+                        <label for="usuario">Usuário</label>
+                        <input type="text" name="usuario" placeholder="Usuário" id="usuario" autocomplete="username" required minlength="5" maxlength="15">
+                    </div>
+                    <div class="text-field">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" placeholder="Email" id="email" autocomplete="email" required>
+                    </div>
+                    <div class="text-field">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" placeholder="Senha" id="senha" autocomplete="new-password" required minlength="8" maxlength="20">
+                    </div>
+                    <div class="text-field">
+                        <label for="confirmar-senha">Confirmar Senha</label>
+                        <input type="password" name="confirmar-senha" placeholder="Confirme sua Senha" id="confirmar-senha" autocomplete="new-password" required minlength="8" maxlength="20">
+                    </div>
+                    <button class="btn-login" type="submit" value="Registrar">Registrar</button>
+                    <div class="links-ajuda">
+                        <a href="index.html" class="Link">Já tem uma conta? Faça login</a> <!-- Alterado para redirecionar para index.html -->
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

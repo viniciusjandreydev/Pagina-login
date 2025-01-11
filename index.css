@@ -114,6 +114,21 @@ a{
     box-shadow: 0px 10px 40px -12px rgb(133, 205, 50);
 }
 
+.links-ajuda {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h2{
+
+}
+.Link {
+    display: flex;
+    margin: 0px 10px;
+    text-decoration: none;
+    align-items: center;
+}
+
 @media screen and (max-width: 950px) {
     .card-login{
         width: 85%;

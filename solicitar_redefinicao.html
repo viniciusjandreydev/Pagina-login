@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Solicitar Redefinição de Senha</title>
+</head>
+<body>
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Solicitar Redefinição de Senha</h1>
+            <img src="telecommuting-animate.svg" class="left-login-image" alt="Solicitar Redefinição de Senha">
+        </div>
+        <form action="processar_solicitacao.php" method="post" autocomplete="on">
+            <div class="right-login">
+                <div class="card-login">
+                    <h1>REDEFINIR SENHA</h1>
+                    <div class="text-field">
+                        <label for="usuario_email">Usuário ou Email</label>
+                        <input type="text" name="usuario_email" placeholder="Usuário ou Email" id="usuario_email" required>
+                    </div>
+                    <button class="btn-login" type="submit" value="Solicitar">Solicitar Redefinição</button>
+                    <div class="links-ajuda">
+                        <a href="index.html" class="Link">Voltar para o Login</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
