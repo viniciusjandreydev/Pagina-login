@@ -4,6 +4,10 @@ if (!isset($_SESSION['usuario'])) {
     header("Location: index.html"); // Redireciona para a página de login se não estiver logado
     exit();
 }
+
+// Redirecionar para a página de portfólios
+header("Location: portfolios.php");
+exit();
 ?>
 
 <!DOCTYPE html>
