@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost'; // ou o endereço do seu servidor
-$db = 'sistema_login';
-$user = 'seu_usuario'; // seu usuário do MySQL
-$pass = 'sua_senha'; // sua senha do MySQL
+$host = 'localhost'; // Endereço do servidor MySQL (use 'localhost' se estiver rodando localmente)
+$db = 'sistema_login1'; // Nome do banco de dados
+$user = 'root'; // Nome de usuário do MySQL
+$pass = ''; // Senha do MySQL (deixe em branco se não houver senha)
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
