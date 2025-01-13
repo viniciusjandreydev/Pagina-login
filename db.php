@@ -1,6 +1,6 @@
 <?php
 $host = 'meusqlsite.c7oewsgak7wr.sa-east-1.rds.amazonaws.com'; // Endereço do servidor MySQL (use 'localhost' se estiver rodando localmente)
-$db = 'meusqlsite'; // Nome do banco de dados
+$db = 'sistema-login'; // Nome do banco de dados
 $user = 'admin'; // Nome de usuário do MySQL
 $pass = 'ViniciusJH12'; // Senha do MySQL (deixe em branco se não houver senha)
 
